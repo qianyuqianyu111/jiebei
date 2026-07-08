@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>版本归档 | 界碑 BoundaryStone Theory</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", "思源黑体", "Microsoft YaHei", sans-serif;
+            background-color: #f0f5f5;
+            color: #2c3e50;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+        .site-title {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+        .site-subtitle {
+            font-size: 14px;
+            color: #5a6c7d;
+            margin-bottom: 50px;
+        }
+        nav {
+            border-top: 1px solid #dce4e4;
+            border-bottom: 1px solid #dce4e4;
+            padding: 16px 0;
+            margin-bottom: 60px;
+            display: flex;
+            gap: 36px;
+        }
+        nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        nav a:hover { color: #1a252f; }
+        h1 {
+            font-size: 26px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .version-item {
+            padding: 20px 0;
+            border-bottom: 1px solid #dce4e4;
+        }
+        .version-title {
+            font-weight字体粗细: 600;
+            margin-bottom: 8px;
+        }
+        .version-date {
+            font-size字体大小: 13px;
+            color颜色: #7a8a99;：#7a8a99；
+            margin-bottom: 10px;
+        }
+        .placeholder {
+            color: #7a8a99;：#7a8a99；            颜色: #7a8a99;：#7a8a99；
+            font-size字体大小: 14px;
+        }
+        footer页脚 {
+            margin-top上外边距: 80px;            上边距：80px；
+            padding-top上内边距: 30px;            上内边距：30px；
+            border-top: 1px solid #dce4e4;            上边框：1px solid #dce4e4；
+            font-size字体大小: 13px;            字体大小：13px；
+            color颜色: #7a8a99;            颜色：#7a8a99；
+        }
+    </style样式>
+</head>
+<body>
+    <div class类="site-title"“站点标题”“站点标题”>界碑</div>
+    <div class类="site-subtitle"“site-subtitle”“site-subtitle”>BoundaryStone Theory · 边界与权责的数字锚点</div>    <div class类="site-subtitle"“site-subtitle”“site-subtitle”>边界石理论 · 边界与权责的数字锚点</div>    <div class类="site-subtitle"“site-subtitle”>边界石理论 · 边界与权责的数字锚点</div>    
+边界石理论·边界与权责的数字锚点    <边界石理论“site-subtitle”
+
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="theory.html">理论总纲</a>
+        <a href="versions.html">版本归档</a>
+        <a href="pearls.html">珍珠碑库</a>
+        <a href="about.html">关于乾玉</a>
+    </nav>
+
+    <h1>版本归档</h1>
+
+    <div class类类类类="version-item">
+        <div class类类类类="version-title">V2.7.22 · 当前版本</div>
+        <div class类类类类="version-date">2026-07-08</div>
+        <div class类类类类="placeholder""占位符""占位符""占位符""占位符">【待填充内容区：本版本迭代要点】</div>
+    </div>
+
+    <div class类类类类="version-item">
+        <div class类类类类="version-title">V2.7.2 · 黄金基线</div>
+        <div class类类类类="version-date">历史基线版本</div>        <div class类类类类="version-date"历史基线版本</div>        
+历史基线版本
+        <div class类类类类="placeholder""占位符""占位符""占位符""占位符">【待填充内容区：基线版本说明】</div>
+    </div>
+
+    <footer页脚>
+        <p>界碑 BoundaryStone边界石 Theory理论 |        <p>界碑 界碑理论 | V2.7.22        <p>界碑 界碑理论 |        <p>界碑 界碑理论 | V2.7.22</p>
+        <p>规则架构师 · 乾玉 版权所有</p>
+    </footer页脚>
+</body>
+    </htmlHTML>
