@@ -3,97 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>界碑 | BoundaryStone Theory</title>
+    <title>界碑理论 | BoundaryStone Theory</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: "Noto Sans SC", "思源黑体", "Microsoft YaHei", sans-serif;            字体族: "Noto Sans SC", "思源黑体", "Microsoft YaHei", 无衬线字体;
-            background-color背景颜色背景颜色: #f0f5f5;            背景颜色: #f0f5f5;
-            color: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;            颜色: #2c3e50;颜色: #2c3e50;
-            line-height: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;            行高: 1.8;行高: 1.8;
-            max-width: 900px像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900px像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900px像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900px像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900像素;            最大宽度: 900px;            最大宽度: 900像素;            最大宽度: 900像素;
-            margin外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 auto自动;            外边距: 0 自动;            外边距: 0 自动;
-            padding内边距内边距: 60px像素 40px像素;            内边距: 60像素 40像素;            内边距: 60px像素 40px像素;            内边距: 60像素 40像素;            内边距: 60px像素 40px像素;            内边距: 60像素 40像素;            内边距: 60px像素 40px像素;            内边距: 60像素 40像素;            内边距: 60px 40px;            内边距: 60像素 40像素;            内边距: 60px 40px;            内边距: 60像素 40像素;            内边距: 60px 40px;            内边距: 60像素 40像素;            内边距: 60px 40px;            内边距: 60像素 40像素;
-        }
-        .site-title {网站标题 {
-            font-size: 32px;
-            font-weight: 600;字体粗细: 600;
-            margin-bottom: 8px像素;
-            letter-spacing: 2px;
-        }
-        .site-subtitle {网站副标题 {        .网站副标题 {网站副标题 {
-            font-size: 14px;
-            color: #5a6c7d;            颜色: #5a6c7d；
-            margin-bottom: 50px像素;            下边距: 50像素;            下边距: 50px；
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-family: "思源黑体", "Microsoft YaHei", sans-serif;
+            color: #2c3e50;
+            line-height: 1.8;
         }
         nav {
-            border-top: 1px solid #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px像素 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px像素 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px像素 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px像素 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;
-            border-bottom: 1px像素 solid #dce4e4;
-            padding: 16px像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16px像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;            内边距: 16像素 0;
-            margin-bottom: 60px像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;            下边距: 60像素;
-            display: flex;            显示: 弹性布局;
-            gap: 36px;            间距: 36像素;
+            margin-bottom: 40px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #c8d0d0;
         }
-        nav a {        导航 a {        导航 a {        导航 a {        导航 a {        导航 a {        导航 a {        导航 a {
-            color颜色: #2c3e50;            颜色: #2c3e50;            颜色: #2c3e50;            颜色: #2c3e50;            颜色: #2c3e50;            颜色: #2c3e50;            颜色: #2c3e50;            颜色: #2c3e50;
-            text-decoration: none无无无无无无无无无无无无无无无无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: none;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无无无无无无无无无无无无无无无无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: none;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;            文本装饰: 无;
-            font-size: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;            字体大小: 15px像素;            字体大小: 15px;            字体大小: 15px;
+        nav a {
+            margin-right: 20px;
+            color: #2c3e50;
+            text-decoration: none;
         }
-        nav a:hover { color: #1a252f; }        导航栏 a:悬停 { 颜色: #1a252f; }
-        h1 {
-            font-size: 26px;            字体大小: 26px;
-            margin-bottom: 30px;            下边距: 30像素;
-            font-weight字体粗细: 600;            字体粗细: 600;
+        .content-block {
+            margin-bottom: 40px;
         }
-        .content-block {        .内容块 {
-            margin-bottom: 40px;            下边距: 40像素;
+        .placeholder {
+            padding: 24px;
+            border: 1px dashed #c8d0d0;
+            border-radius: 4px;
         }
-        .placeholder {        .占位符 {        .占位符 {        .占位符 {
-            color颜色: #7a8a99;            颜色            颜色: #7a8a997a8a99;            颜色: #7a8a99;
-            border: 1px dashed #c8d0d0;            边框: 1px像素 虚线 #c8d0d0;            边框: 1px 虚线 #c8d0d0;            边框: 1px像素 虚线 #c8d0d0;            边框: 1px 虚线 #c8d0d0;            边框: 1px像素 虚线 #c8d0d0;            边框: 1px 虚线 #c8d0d0;            边框: 1px像素 虚线 #c8d0d0;
-            padding内边距内边距: 40px像素;            内边距: 40像素;            内边距: 40px像素;            内边距: 40像素;            内边距: 40px像素;            内边距: 40像素;            内边距: 40px像素;            内边距: 40像素;
-            text-align: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;            文本对齐: center;            文本对齐: 居中;
-            margin: 20px 0;            边距: 20像素 0;            外边距: 20px像素 0;            外边距: 20像素 0;
+        .article-link {
+            display: block;
+            margin-top: 16px;
+            color: #2c3e50;
+            text-decoration: none;
+            border-bottom: 1px solid #c8d0d0;
+            width: fit-content;
         }
-        footer {        页脚 {
-            margin-top: 80px像素;            顶部外边距: 80像素;
-            padding-top: 30px;            上内边距: 30px;            上内边距: 30px像素;            上内边距: 30px像素;
-            border-top: 1px solid #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;            上边框: 1px 实线 #dce4e4;            上边框: 1像素 实线 #dce4e4;
-            font-size: 13px像素;            字体大小: 13像素;            字体大小: 13px像素;            字体大小: 13像素;            字体大小: 13px;            字体大小: 13像素;            字体大小: 13px;            字体大小: 13像素;            字体大小: 13px;            字体大小: 13像素;            字体大小: 13px;            字体大小: 13像素;            字体大小: 13px;            字体大小: 13像素;            字体大小: 13px;            字体大小: 13像素;
-            color: #7a8a99;            颜色            颜色: #7a8a99;            颜色: #7a8a99;
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #c8d0d0;
+            font-size: 14px;
+            color: #7f8c8d;
         }
-    </style>    </样式>
+    </style>
 </head>
 <body>
-    <div class="site-title">界碑</div>
-    <div class="site-subtitle">BoundaryStone Theory · 边界与权责的数字锚点</div>    <div class="site-subtitle">边界石理论 · 边界与权责的数字锚点</div>
 
-    <nav>
-        <a href="index.html">首页</a>
-        <a href="theory.html">理论总纲</a>
-        <a href="versions.html">版本归档</a>
-        <a href="pearls.html">珍珠碑库</a>
-        <a href="about.html">关于乾玉</a>
-    </nav>
+<!-- 顶部导航 -->
+<nav>
+    <a href="versions.html">版本归档</a>
+    <a href="pearls.html">珍珠碑库</a>
+    <a href="about.html">关于乾玉</a>
+</nav>
 
+<!-- 核心主张板块 -->
+<div class="content-block">
     <h1>核心主张</h1>
-    <div class="content-block">
-        <div class="placeholder">【待填充内容区：界碑理论一句话核心定义 + 当前版本号】</div>
-        <p style="margin-top上外边距: 24px像素;">
-    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; border-bottom: 1px solid #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">    <a href="article-001.html" style="color: #2c3e50; text-decoration: none; 下边框: 1像素 实线 #c8d0d0;">
-        最新文章：全网都在惋惜智能体下架，我却看到了中国AI换道的机会
-    </a>
-    </p>
+    <div class="placeholder">
+        【待填充内容区：界碑理论一句话核心定义 + 当前版本号 V2.7.22】
+        <a href="article-001.html" class="article-link">
+            最新文章：全网都在惋惜智能体下架，我却看到了中国AI换道的机会
+        </a>
     </div>
+</div>
 
+<!-- 核心范式板块 -->
+<div class="content-block">
     <h1>核心范式</h1>
-    <div class="content-block">
-        <div class="placeholder">【待填充内容区：四大核心范式条目列表】</div>
+    <div class="placeholder">
+        【待填充内容区：四大核心范式条目列表】
     </div>
+</div>
 
-    <footer>
-        <p>界碑 BoundaryStone Theory | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>        <p>界碑 界碑理论 | V2.7.22</p>
-        <p>规则架构师 · 乾玉 版权所有</p>
-    </footer>
+<!-- 页脚 -->
+<footer><页脚>
+    <p>界碑 BoundaryStone Theory | V2.7.22</p>
+    <p>规则架构师 · 乾玉 版权所有</p>
+</footer></页脚>
+
 </body>
 </html>
